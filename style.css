@@ -1,0 +1,72 @@
+ body,
+ html {
+     height: 100%;
+     margin: 0;
+     font-family: 'Segoe UI', sans-serif;
+ }
+
+ .login-bg {
+     background: url('imgs/bg-image.jpg') no-repeat center center fixed;
+     background-size: cover;
+     min-height: 100vh;
+ }
+
+ .overlay {
+      background: rgba(0, 0, 0, 0.44);
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+ }
+
+ .text-left-box h1 {
+     font-size: 3rem;
+     font-weight: bold;
+ }
+
+ .text-left-box p {
+     font-size: 1.25rem;
+     color: #ddd;
+ }
+
+ .card {
+     border-radius: 10px;
+ }
+
+ .navbar {
+     background-color: rgba(0, 0, 0, 0.85) !important;
+
+ }
+
+ .nav-link {
+     color: #fff !important;
+ }
+
+ footer {
+     background-color: rgba(0, 0, 0, 0.8);
+     color: #ddd;
+     padding: 10px 0;
+     text-align: center;
+ }
+
+ footer a {
+     color: #ccc;
+     text-decoration: none;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+     color: #fff;
+ }
+
+ .logo-img {
+     width: 280px;
+     /* adjust size as needed */
+     height: auto;
+     border-radius: 50%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     margin-bottom: 20px;
+ }
+ 
+ 
